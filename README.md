@@ -1,59 +1,68 @@
-<!DOCTYPE html>
+
 <html>
 
 <head>
-
 <style>
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+header {
+    background-color:steelblue;
+    color:white;
+    text-align:center;
+    padding:5px;  
 }
-
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 0 8px 16px;
-    text-decoration: none;
+nav {
+    line-height:30px;
+    background-color:#48D1CC;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;       
 }
-
-li a.active {
-    background-color: steelblue;
-    color: white;
+section {
+    width:350px;
+    float:left;
+    padding:10px;    
 }
-
-li a:hover:not(.active) {
-    background-color: turquoise;
-    color: white;
+footer {
+    background-color:steelblue;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;    
 }
-
 </style>
-
 </head>
 
 <body>
 
-<h2>Vertical Navigation Bar</h2>
+<header>
 
-<p>In this example, Active class is 
-in a Steelblue background color and 
-a white text.</p>
+<h1>WELCOME TO DAVAO</h1>
 
-<ul>
+</header>
 
-<li><a class="active" href="#home">
-Home</a></li>
-<li><a href="#Content">Content</a>
-</li>
-<li><a href="#contact">Contact</a>
-</li>
-<li><a href="#about">About</a>
-</li>
+<nav>
 
-</ul>
+DAVAO<br>
+DAVAO<br>
+DAVAO<br>
+
+</nav>
+
+<section>
+
+<h1>DAVAO</h1>
+
+<p>
+BARBIEEE BARBIE BARBIEEEE
+</p>
+
+</section>
+
+<footer>
+
+Copyright  2021
+
+</footer>
 
 </body>
 </html>
